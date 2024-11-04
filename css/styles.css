@@ -10973,3 +10973,20 @@ section.resume-section .resume-section-content {
 .email {
     text-transform: lowercase !important;
 }
+.social-icons {
+    display: flex;
+    align-items: center; /* Align icons vertically */
+    gap: 10px; /* Adjust spacing between icons, if you have multiple */
+}
+
+.social-icon {
+    font-size: 24px; /* Adjust icon size */
+    color: #0077b5; /* LinkedIn blue */
+    text-decoration: none; /* Remove underline */
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-icon i {
+    vertical-align: middle; /* Align icon with text */
+}
