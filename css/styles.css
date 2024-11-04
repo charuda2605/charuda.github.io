@@ -10970,3 +10970,6 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.email {
+    text-transform: lowercase;
+}
