@@ -10971,5 +10971,5 @@ section.resume-section .resume-section-content {
   }
 }
 .email {
-    text-transform: lowercase;
+    text-transform: lowercase !important;
 }
