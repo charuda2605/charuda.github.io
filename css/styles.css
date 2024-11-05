@@ -10990,3 +10990,18 @@ section.resume-section .resume-section-content {
 .social-icon i {
     vertical-align: middle; /* Align icon with text */
 }
+.download-btn button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.download-btn button:hover {
+  background-color: #45a049;
+}
+
