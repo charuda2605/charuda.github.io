@@ -11021,4 +11021,7 @@ section.resume-section .resume-section-content {
     color: black;
     text-decoration: none;  /* Removes the underline */
 }
+.no-underline {
+    text-decoration: none;
+}
 
