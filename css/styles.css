@@ -11017,4 +11017,8 @@ section.resume-section .resume-section-content {
 .social-icon:hover i {
     color: #0072b1;  /* Change color on hover */
 }
+.social-icon {
+    color: black;
+    text-decoration: none;  /* Removes the underline */
+}
 
