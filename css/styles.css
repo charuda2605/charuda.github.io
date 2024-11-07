@@ -11062,3 +11062,10 @@ body[data-theme="dark"] .phone-number {
     color: white; /* White color for phone number in dark mode */
 }
 
+
+/* Make the email lowercase */
+.email {
+    text-transform: lowercase;
+}
+
+
