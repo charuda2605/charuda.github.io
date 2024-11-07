@@ -11009,11 +11009,6 @@ section.resume-section .resume-section-content {
     gap: 10px;
 }
 
-.social-icon i {
-    font-size: 24px;  /* Adjust icon size */
-    color: #333;      /* Change icon color */
-}
-
 
 .social-icon {
     color: black;
