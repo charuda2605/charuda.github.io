@@ -11004,19 +11004,6 @@ section.resume-section .resume-section-content {
 .download-btn button:hover {
   background-color: #45a049;
 }
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-
-.social-icon {
-    color: black;
-    text-decoration: none;  /* Removes the underline */
-}
-.no-underline {
-    text-decoration: none;
-}
 
 /* Light Mode - default */
 :root {
