@@ -11068,3 +11068,8 @@ button {
     cursor: pointer;
   
 }
+#theme-toggle {
+    position: relative;  /* Ensure it's a positioned element */
+    z-index: 1000;       /* Make sure it's on top of other elements */
+}
+
