@@ -11072,4 +11072,13 @@ button {
     position: relative;  /* Ensure it's a positioned element */
     z-index: 1000;       /* Make sure it's on top of other elements */
 }
+/* Default styles for light mode */
+body[data-theme="light"] .phone-number {
+    color: black; /* Black color for phone number in light mode */
+}
+
+/* Dark mode styles */
+body[data-theme="dark"] .phone-number {
+    color: white; /* White color for phone number in dark mode */
+}
 
