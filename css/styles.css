@@ -11025,3 +11025,19 @@ section.resume-section .resume-section-content {
     text-decoration: none;
 }
 
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+}
+
+/* Add more styles as necessary */
