@@ -11025,6 +11025,22 @@ section.resume-section .resume-section-content {
     text-decoration: none;
 }
 
+/* Light Mode - default */
+:root {
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --primary-color: #007bff;
+    --secondary-color: #f8f9fa;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+    --background-color: #121212;
+    --text-color: #f0f0f0;
+    --primary-color: #6200ea;
+    --secondary-color: #333333;
+}
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -11034,10 +11050,20 @@ body {
 
 header {
     background-color: var(--primary-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer {
     background-color: var(--secondary-color);
+    padding: 1rem;
 }
 
-/* Add more styles as necessary */
+button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
